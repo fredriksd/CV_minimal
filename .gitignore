@@ -1,0 +1,8 @@
+#Latex files
+*.aux
+*.bcf
+*.fdb*
+*.out
+*.fls
+*.xdv
+*.run*
