@@ -1,0 +1,156 @@
+%!TeX program = xelatex
+% CV_Fredrik_Sandhei.tex
+%
+% (c) Inspired by David J. Grant
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{xcolor}
+\usepackage{calc}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\definecolor{lightgray}{gray}{0.8}
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \noindent\colorbox{lightgray}{\begin{minipage}{\linewidth-2\fboxsep}{\textbf{#1}}\end{minipage}}}}%\parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-5pt}}
+\newcommand{\resreference}[4]{
+\begin{tabular*}{}{}
+		\textbf{#1} \\
+                #2 \\
+		#3 \\
+                #4 \\
+\end{tabular*}\vspace{-5pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Fredrik Sandhei}  & +47 962 26 718\\
+Dyrmyrgata 14B &  fredrik.sandhei@gmail.com \\
+3611 Kongsberg 
+\end{tabular*}
+
+\vspace{0.1in}
+
+\resheading{Utdanning}
+\begin{itemize}
+\item
+        \ressubheading{Universitetet i Tromsø}{Tromsø}{Bachelor i ingeniørfag: Droneteknologi}{2016 - 2019}
+        \begin{itemize}
+            \resitem{Uteksaminert med \textbf{A} på bacheloroppgaven.}
+            \resitem{Skrev bacheloroppgave om utvikling av et automatisk optisk landingssystem \\for multirotorer.}
+        \end{itemize}
+\item
+	\ressubheading{NTNU}{Trondheim}{Bachelor i fysikk}{Høsten 2015}
+\end{itemize}
+\resheading{Jobb \& internship}
+\begin{itemize}
+\item
+   \ressubheading{Kongsberg Defence \& Aerospace; Divisjon Missil}{Kongsberg}{Software-ingeniør}{Sep. 2019 - }
+	\begin{itemize}
+		\resitem{Bidratt på utviklingen av nyere generasjons Naval Strike Missiles.}
+		\resitem{Jobber hovedsaklig med utvikling og drift av KONCERTO, et CORBA-\\COMPONENT - rammeverk som alle nye produkter ved DM baseres på. \\KONCERTO leveres på tvers av divisjoner i KDA.}
+	\end{itemize}
+\item 
+	\ressubheading{Norut}{Tromsø}{Internship}{August 2018}
+	\begin{itemize}
+           \resitem{Bygget tre fixed wing UAV for landmålingsformål m/ Pixhawk (CryoWing Observer - modeller.)}
+	\end{itemize}
+\item
+	\ressubheading{Universitetet i Tromsø}{Tromsø}{Vitenskapelig assistent}{Høsten 2018}
+	\begin{itemize}
+           \resitem{Øvingslærer i Embedded C for Atmel (AUT - 1001), hvor studentene skulle utvikle på Atmega8 - Mcu.}
+           \resitem{Assisterte universitetslektorene ved å holde øvingstimer i AUT - 1001.}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Skoleprosjekter}
+\begin{itemize}
+\item
+   \ressubheading{Utvikling av Automatic Optical Landing System - 1 (OLS-1)}{Bacheloroppgave}{Universitetet i Tromsø}{Jan. 2019 - Mai 2019}
+	\begin{itemize}
+           \resitem{Utviklet programvaren for et optisk landingssystem for multirotorer. Programvaren ble skrevet i Python}
+           \resitem{Programvaren ble utviklet på en Raspberry Pi og baserte seg på MAVlink - kommunikasjonsprotokollen for open - source autopilotsystemet ArduCopter / ArduPilot.}
+	\end{itemize}
+
+\item
+	\ressubheading{Design av hjemmeside}{}{Linjeforening for Droneteknologi og automasjon }{}
+	\begin{itemize}
+           \resitem{Hovedutvikler av nettside for Linjeforeninga for dronetekonologi og automasjon}
+           \resitem{Tok initiativet for å danne en nettside for å kunne øke interessen for studiet og danne et nettverk blant medstudentene.}
+	\end{itemize}
+
+\item
+   \ressubheading{Utvikling og design av fixed wing UAV}{}{Universitetet i Tromsø}{Sept. 2018 - Des. 2018}
+	\begin{itemize}
+           \resitem{Hadde ansvar for å utvikle og designe en vinge og kropp som skulle oppfylle våre krav til luftdyktighet, ytelse, flygeevne og annet. Benyttet meg av XFLR5 modelleringsapplikasjonen til å beregne løftkoeffisient, teste vingeprofiler med ulike løftkarakteristikker under ulike værforhold.}
+           \resitem{Flyet fikk skryt av NORUT for å være laget på en godt strukturert plan med data bak for å støtte opp endelig design.}
+	\end{itemize}
+
+\end{itemize}
+
+\resheading{Ferdigheter}
+
+\begin{description}
+\item[Programmeringsspråk:]
+C/C++ ($\geq$C++11), \LaTeX, Python, shell
+\item[Operativsystemer:]
+Linux (Manjaro, Red Hat), UNIX, MacOS X, Windows 7 / 10
+\item[Applikasjoner:]
+Git, ClearCase, \LaTeX, OpenOffice, MS Office, GTest Framework
+\item[Diverse:]
+software configuration management, agile development, sterk muntlig og skriftlig kommunikasjonsevne, sterk evne til å løse problemstillinger og feilsøke, bra samarbeidsevne innad og utad teamet, TDD, BDD, ADD
+\end{description}
+
+\resheading{Interesser}
+
+\begin{description}
+\item[Academisk:] Autonom flyvning  programvareutvikling, photonics, microcontrollers, RF/wireless
+\item[Sport:] Styrketrening og løping
+\item[Software] Jobber foreløpig med utvikling av eget GNU-Make - byggesystem rettet mot utvikling av C++ - applikasjoner. Jobber også med utvikling av egen \textbf{A}* - pathfinder for ArduPilot
+\item[Musical:] Spiller gitar og bass
+\item[Annet:] Hobby med FPV og modellflyvning. Innehar radiotelefonisertifikatet for luftfart.
+\end{description}
+
+\resheading{Referanser}
+Leif Richard Skoe \\
+Senior Software Engineer \\
+Division Missile; Software \\
++ 47 975 42 482 \\
+\textbf{leif.richard.skoe@kongsberg.com} \\
+-------------------- \\
+Knut Petter Svendsen \\
+Senior Software Engineer \\
+Division Missile; Software \\
++47 905 71 612 \\
+\textbf{knut.svendsen@kongsberg.com \\}
+
+\end{document}

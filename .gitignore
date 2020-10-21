@@ -1,4 +1,5 @@
 #Latex files
+*.gz
 *.aux
 *.bcf
 *.fdb*
@@ -6,3 +7,4 @@
 *.fls
 *.xdv
 *.run*
+*.synctex*
