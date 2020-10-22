@@ -22,6 +22,7 @@
 \setlength{\evensidemargin}{-0.25in}
 %-----------------------------------------------------------
 %\usepackage{fullpage}
+\usepackage{url}
 \usepackage{xcolor}
 \usepackage{calc}
 %\textheight=9.0in
@@ -33,20 +34,24 @@
 %-----------------------------------------------------------
 %Custom commands
 \definecolor{lightgray}{gray}{0.8}
+\newcommand{\mycolorbox}[2]{{\noindent\colorbox{#1}{\begin{minipage}{\linewidth-2\fboxsep}{\textbf{#2}}\end{minipage}}}}
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
-\newcommand{\resheading}[1]{{\large \noindent\colorbox{lightgray}{\begin{minipage}{\linewidth-2\fboxsep}{\textbf{#1}}\end{minipage}}}}%\parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\resheading}[1]{{\large \mycolorbox{lightgray}{#1}}}%\parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 		\textit{#3} & \textit{#4} \\
 \end{tabular*}\vspace{-5pt}}
-\newcommand{\resreference}[4]{
-\begin{tabular*}{}{}
+\newcommand{\resreference}[5]{
+\begin{tabular}{l}
+                \vspace{-5pt} \\
 		\textbf{#1} \\
                 #2 \\
 		#3 \\
                 #4 \\
-\end{tabular*}\vspace{-5pt}}
+                \url{#5} \\
+                \hline
+\end{tabular}}
 %-----------------------------------------------------------
 
 \begin{document}
@@ -141,16 +146,8 @@ software configuration management, agile development, sterk muntlig og skriftlig
 \end{description}
 
 \resheading{Referanser}
-Leif Richard Skoe \\
-Senior Software Engineer \\
-Division Missile; Software \\
-+ 47 975 42 482 \\
-\textbf{leif.richard.skoe@kongsberg.com} \\
--------------------- \\
-Knut Petter Svendsen \\
-Senior Software Engineer \\
-Division Missile; Software \\
-+47 905 71 612 \\
-\textbf{knut.svendsen@kongsberg.com \\}
+\resreference{Leif Richard Skoe}{Senior Software Engineer}{Division Missile; Software}{47 975 42 482}{leif.richard.skoe@kongsberg.com}
+%-------------------- \\
+\resreference{Knut Petter Svendsen}{Senior Software Engineer}{Division Missile; Software}{+47 905 71 612}{knut.svendsen@kongsberg.com}
 
 \end{document}

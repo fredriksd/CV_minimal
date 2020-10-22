@@ -7,4 +7,10 @@
 *.fls
 *.xdv
 *.run*
-*.synctex*
+
+#Latex Build Tool Auxiliary files:
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync

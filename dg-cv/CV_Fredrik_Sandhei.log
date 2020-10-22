@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.10.19)  21 OCT 2020 22:42
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.10.19)  22 OCT 2020 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,6 +22,9 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
+) (/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -58,44 +61,44 @@ File: l3backend-xdvipdfmx.def 2020-06-03 L3 backend support: xdvipdfmx
 \g__pdf_backend_object_int=\count175
 \g__pdf_backend_annotation_int=\count176
 ) (./CV_Fredrik_Sandhei.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 57.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 55.
+(Font)              <10.95> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
+(Font)              <8> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
+(Font)              <6> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 63.
+(Font)              <12> on input line 67.
  [1
 
 ] [2] (./CV_Fredrik_Sandhei.aux) ) 
 Here is how much of TeX's memory you used:
- 1145 strings out of 479284
- 16783 string characters out of 5886219
- 265875 words of memory out of 5000000
- 18845 multiletter control sequences out of 15000+600000
- 536046 words of font info for 43 fonts, out of 8000000 for 9000
+ 1224 strings out of 479284
+ 17730 string characters out of 5886219
+ 266984 words of memory out of 5000000
+ 18918 multiletter control sequences out of 15000+600000
+ 536054 words of font info for 44 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 24i,7n,37p,350b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,7n,37p,350b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV_Fredrik_Sandhei.xdv (2 pages, 37564 bytes).
+Output written on CV_Fredrik_Sandhei.xdv (2 pages, 38112 bytes).
